@@ -1,0 +1,48 @@
+hero:
+  name: 安其拉
+  word: 火焰是我最喜欢的玩具
+  hp: 445.1
+
+heros_name:
+  - 安其拉
+  - 黄忠
+  - 小乔
+
+heros:
+  - name: 黄忠
+    word: 周日被我射熄火了
+    hp: 440
+
+
+hero_name_list:
+  -
+    -安其拉
+    -黄忠
+    -小乔
+
+heros_name_word:
+  - - 黄忠
+    - 周日被我射熄火了
+  - - 安其拉
+    - 火炎是我最喜欢的玩具
+
+
+test:
+  name: login_case1
+  request:
+    url: http://X.X.X.X/api/v1/login/
+    method: POST
+    headers:
+      Content-Type: application/json
+    json:
+      username: test
+      password: 123456
+      heros:
+        - name: 黄忠
+          word: 周日被我射熄火了
+          Hp: 440
+
+mobile_belong: {shouji: 13456755448, appkey: 0c818521d38759e1}
+mobile_belong_post:
+  - - 13456755448
+    - 0c818521d38759e1
